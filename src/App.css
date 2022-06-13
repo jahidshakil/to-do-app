@@ -12,12 +12,55 @@
 }
 .container{
   background-color: #12343b;
-  min-width: 450px;
+  min-width: 550px;
   min-height: 650px;
-  padding: 30px;
+  padding: 20px;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 3px 6px 40px #000;
   text-align: center;
 }
 
+
+
+.input-class{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid #1ba6d0;
+  outline: none;
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  background: #1ba6d0;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 30px;
+  cursor: pointer;
+  min-height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+button:hover{
+  background-color: #156f81;
+}
+
+.todo-list{
+  text-align: left;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+}
+.todo-list > li{
+  padding-left: 30px;
+}
